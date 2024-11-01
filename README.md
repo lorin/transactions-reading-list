@@ -10,7 +10,7 @@ Introduced the concept of ACID transactions.
 ### A Critique of ANSI SQL Isolation Levels
 Hal Berenson, Phil Bernstein, Jim Gray, Jim Melton, Elizabeth O'Neil, Patrick O'Neil, Microsoft Research Technical Report MSR-TR-95-51, June 1995.
 
-This paper pointed out problems in the ANSI SQL definition of isolation levels. 
+This paper pointed out problems in the ANSI SQL definition of isolation levels. Introduces the concept of *snapshot isolation*. 
 
 ### Weak Consistency: A Generalized Theory and Optimistic Implementations for Distributed Transactions
 Atul Adya, PhD dissertation, Massachusetts Institute of Technology, March 1999.
@@ -26,6 +26,13 @@ This is a publication out of Adya's PhD dissertation work. It describes phenomen
 * PL-2
 * PL-2.99
 * PL-3
+
+### Serializable Isolation for Snapshot Databases
+Michael J. Cahill, Uwe Röhm, Alan D. Fekete, SIGMOD '08, June 2008.
+
+Describes an algorithm for extending snapshot isolation to achieve serializability.
+
+
 
 ### Highly Available Transactions: Virtues and Limitations
 Peter Bailis, Aaron Davidson, Alan Fekete, Ali Ghodsi, Joseph M. Hellerstein, Ion Stoica, Proceedings of the VLDB Endowment, Vol. 7, No. 3. 2013
