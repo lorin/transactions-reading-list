@@ -27,11 +27,15 @@ This is a publication out of Adya's PhD dissertation work. It describes phenomen
 * PL-2.99
 * PL-3
 
+### Making Snapshot Isolation Serializable
+Alan Fekete, Dimitrios Liarokapis, Elizabeth O'Neil, Patrick O'Neil, Dennis Shasha, ACM Transactions on Database Systems, Vol. 30, No. 2, June 2005.
+
+Describes in detail the conditions in which a snapshot isolation execution history can be non-serializable. 
+
 ### Serializable Isolation for Snapshot Databases
 Michael J. Cahill, Uwe Röhm, Alan D. Fekete, SIGMOD '08, June 2008.
 
-Describes an algorithm for extending snapshot isolation to achieve serializability.
-
+Builds on the *Making Snapshot Isolation Serializable* paper to describe an algorithm for extending snapshot isolation to achieve serializability.
 
 
 ### Highly Available Transactions: Virtues and Limitations
