@@ -30,11 +30,13 @@ This is a publication out of Adya's PhD dissertation work. It describes phenomen
 
 ### Making Snapshot Isolation Serializable
 Alan Fekete, Dimitrios Liarokapis, Elizabeth O'Neil, Patrick O'Neil, Dennis Shasha, ACM Transactions on Database Systems, Vol. 30, No. 2, June 2005.
+<https://dl.acm.org/doi/10.1145/1071610.1071615>
 
 Describes in detail the conditions in which a snapshot isolation execution history can be non-serializable. 
 
 ### Serializable Isolation for Snapshot Databases
 Michael J. Cahill, Uwe Röhm, Alan D. Fekete, SIGMOD '08, June 2008.
+<https://dl.acm.org/doi/10.1145/1620585.1620587>
 
 Builds on the *Making Snapshot Isolation Serializable* paper to describe an algorithm for extending snapshot isolation to achieve serializability.
 
