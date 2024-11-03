@@ -9,12 +9,13 @@ Introduced the concept of ACID transactions.
 
 ### A Critique of ANSI SQL Isolation Levels
 Hal Berenson, Phil Bernstein, Jim Gray, Jim Melton, Elizabeth O'Neil, Patrick O'Neil, Microsoft Research Technical Report MSR-TR-95-51, June 1995.
+[pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-95-51.pdf)
 
 This paper pointed out problems in the ANSI SQL definition of isolation levels. Introduces the concept of *snapshot isolation*. 
 
 ### Weak Consistency: A Generalized Theory and Optimistic Implementations for Distributed Transactions
 Atul Adya, PhD dissertation, Massachusetts Institute of Technology, March 1999. 
-<https://hdl.handle.net/1721.1/149899>
+[ref](https://hdl.handle.net/1721.1/149899), [pdf](https://pmg.csail.mit.edu/papers/adya-phd.pdf)
 
 Builds on the Berenson et al. paper to formalize isolation levels (see Generalized Isolation Level Definitions below).
 
@@ -30,7 +31,7 @@ This is a publication out of Adya's PhD dissertation work. It describes phenomen
 
 ### Making Snapshot Isolation Serializable
 Alan Fekete, Dimitrios Liarokapis, Elizabeth O'Neil, Patrick O'Neil, Dennis Shasha, ACM Transactions on Database Systems, Vol. 30, No. 2, June 2005.
-<https://dl.acm.org/doi/10.1145/1071610.1071615>
+[ref](https://dl.acm.org/doi/10.1145/1071610.1071615), [pdf](https://dsf.berkeley.edu/cs286/papers/ssi-tods2005.pdf)
 
 Describes in detail the conditions in which a snapshot isolation execution history can be non-serializable. 
 
