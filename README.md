@@ -13,7 +13,7 @@ Hal Berenson, Phil Bernstein, Jim Gray, Jim Melton, Elizabeth O'Neil, Patrick O'
 This paper pointed out problems in the ANSI SQL definition of isolation levels. Introduces the concept of *snapshot isolation*. 
 
 ### Weak Consistency: A Generalized Theory and Optimistic Implementations for Distributed Transactions
-Atul Adya, PhD dissertation, Massachusetts Institute of Technology, March 1999.
+Atul Adya, PhD dissertation, Massachusetts Institute of Technology, March 1999. <https://hdl.handle.net/1721.1/149899>
 
 Builds on the Berenson et al. paper to formalize isolation levels (see Generalized Isolation Level Definitions below).
 
