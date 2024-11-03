@@ -4,6 +4,7 @@ A reading list of interesting papers related to database transactions
 
 ### Principles of Transaction-Oriented Databse Recovery
 Theo Haerder, Andreas Reuter, Computing Surveys, Vol. 15, No. 4, December 1983.
+[ref](https://dl.acm.org/doi/10.1145/289.291), [pdf](https://dl.acm.org/doi/pdf/10.1145/289.291)
 
 Introduced the concept of ACID transactions.
 
@@ -49,6 +50,6 @@ One of the contributions of this paper is to provide a hierarchy of isolation le
 
 ### Seeing is Believing: A Client-Centric Specification of Database Isolation
 Natacha Crooks, Youer Pu, Lorenzo Alvisi, Allen Clement, Proceedings of PODC '17, July 2017.
-<https://dl.acm.org/doi/10.1145/3087801.3087802>
+[ref](https://dl.acm.org/doi/10.1145/3087801.3087802), [pdf](https://www.cs.cornell.edu/lorenzo/papers/Crooks17Seeing.pdf)
 
 Provides an alterative formalism to transaction isolation levels, based on state.
