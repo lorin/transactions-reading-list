@@ -37,7 +37,7 @@ Describes in detail the conditions in which a snapshot isolation execution histo
 
 ### Serializable Isolation for Snapshot Databases
 Michael J. Cahill, Uwe Röhm, Alan D. Fekete, SIGMOD '08, June 2008.
-<https://dl.acm.org/doi/10.1145/1620585.1620587>
+[ref](https://dl.acm.org/doi/10.1145/1620585.1620587), [pdf](https://courses.cs.washington.edu/courses/cse444/08au/544M/READING-LIST/fekete-sigmod2008.pdf)
 
 Builds on the *Making Snapshot Isolation Serializable* paper to describe an algorithm for extending snapshot isolation to achieve serializability.
 
