@@ -23,12 +23,22 @@ Builds on the Berenson et al. paper to formalize isolation levels (see Generaliz
 ### Generalized Isolation Level Definitions
 Atul Adya, Barbara Liskov, Patrick O'Neil. Proceedings of the IEEE International Conference on Data Engineering, March 2000. [pdf](http://pmg.csail.mit.edu/papers/icde00.pdf)
 
-This is a publication out of Adya's PhD dissertation work. It describes phenomena in terms of dependency cycles and defines the following isolation levels.
+This is a publication out of Adya's PhD dissertation work. It describes phenomena in terms of dependency cycles.
+
+#### Dependencies
+
+ww: A transaction Tj directly write-depends on Ti if Ti installs a version xi and Tj installs x’s next version (after xi ) in the version order.
+
+#### Isolation levels
+
+The paper defines the following isolation levels:
 
 * PL-1
 * PL-2
 * PL-2.99
 * PL-3
+
+  
 
 ### Making Snapshot Isolation Serializable
 Alan Fekete, Dimitrios Liarokapis, Elizabeth O'Neil, Patrick O'Neil, Dennis Shasha, ACM Transactions on Database Systems, Vol. 30, No. 2, June 2005.
