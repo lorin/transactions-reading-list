@@ -21,7 +21,7 @@ Atul Adya, PhD dissertation, Massachusetts Institute of Technology, March 1999.
 Builds on the Berenson et al. paper to formalize isolation levels (see Generalized Isolation Level Definitions below).
 
 ### Generalized Isolation Level Definitions
-Atul Adya, Barbara Liskov, Patrick O'Neil. Proceedings of the IEEE International Conference on Data Engineering, March 2000.
+Atul Adya, Barbara Liskov, Patrick O'Neil. Proceedings of the IEEE International Conference on Data Engineering, March 2000. [pdf](http://pmg.csail.mit.edu/papers/icde00.pdf)
 
 This is a publication out of Adya's PhD dissertation work. It describes phenomena in terms of dependency cycles and defines the following isolation levels.
 
